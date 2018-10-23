@@ -1,0 +1,33 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'TEF'
+  ClientHeight = 269
+  ClientWidth = 688
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TRichEdit
+    Left = 0
+    Top = 183
+    Width = 689
+    Height = 89
+    Color = clTeal
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindow
+    Font.Height = 22
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Lines.Strings = (
+      'Resultado')
+    ParentFont = False
+    TabOrder = 0
+    Zoom = 100
+  end
+end
